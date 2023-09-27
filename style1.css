@@ -1,0 +1,454 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   
+}
+
+/* .container1 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+} */
+
+/* .logo{
+    font-size: 30px;
+    font-weight: lighter;
+} */
+
+
+/* #header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+
+/* .header-list {
+    display: flex;
+    
+    gap: 50px;
+    list-style: none;
+
+}
+
+.header-list li{
+    font-size: 18px;
+} */
+
+
+
+
+
+
+
+.form-container{
+    padding: 150px 0 100px;
+    background-image: url(assets/images/yellow_car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.form-container form{
+    padding: 30px;
+    margin: 30px;
+    border-radius: 8px;
+    background: #fff;
+    text-align: center;
+    width: 700px;
+}
+.password-div i{
+    position: absolute;
+    margin-top: 35px;
+    color: grey;
+    font-size: 20px;
+    right: 30%; 
+    cursor: pointer;   
+}
+.login-button{
+    padding: 5px;
+}
+.login-button:hover{
+    background-color: rgba(44, 41, 41, 0.74);
+    color: white;
+}
+
+.form-container form h3{
+    color: black;
+    font-size: 24px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    color: darkorange;
+    text-decoration: overline;
+}
+.form-container form .box{
+    margin: 10px 0;
+    width: 90%;
+    text-transform: none;
+    color: black;
+    font-size: 20px;
+    padding: 16px 20px;
+    border-radius:8px;
+}
+.form-container form p{
+    padding: 1px 0;
+    font-size: 20px;
+   
+
+}
+.form-container form p a{
+    color: blue;
+    text-decoration: underline;
+} 
+.userlogin,.email-div,.password-div,.button,.forgot,.donthaveaccount{
+    padding-bottom: 20px;
+}
+em{
+    color: rgba(73, 73, 231, 0.853) ;
+}
+/* .logo{
+    font-size: 40px;
+    font-weight: bolder;
+} */
+/* .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background:lightgrey;
+    padding: 10px;
+    
+} */
+/* .header  nav ul  a{
+    font-size: 20px;
+    margin: 0 16px 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+.header nav ul a:link{
+    color:black;
+    text-decoration: overline;
+}
+.header nav ul a:visited{
+    color:black;
+}
+.header nav ul a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+.header nav ul a:active{
+    background-color: green;
+
+}
+ul{
+    float: right;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+nav ul li:last-child{
+    margin-right: 0;
+} */
+
+.section-1,.section-2{
+    padding: 20px;
+    top: 0;
+    right: 0;
+    left: 0;   
+}
+
+.section-3{
+    background-image: url(assets/images/contact-1-720x480.jpg);
+    background-size: cover;
+    
+}
+.section-form-div{
+   
+    padding:60px 0 40px;
+    
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: lighter
+}
+.form{
+    padding: 40px;
+    background-color:transparent ;
+    width: 50%;
+    margin: auto;
+    border-radius: 8px;
+}
+.section-heading{
+    text-align: center;
+}
+.contact-info{
+    padding-bottom: 20px;
+}
+.contact-icon,.email-icon,.location-icon{
+    display: inline-block;
+    padding-right: 50px;
+    margin-right: 20px;
+    
+}
+.icons{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icons h5 a{
+    color: black;
+    font-size: 20px;
+}
+.lastform input[type="text"],input[type="email"],textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+}
+textarea{
+    resize: none;
+}
+.main-button,.login-button{
+    font-size: 30px;
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    transition: 0.5s;
+}
+.main-button:hover{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+
+    
+.form-container form .other-login-options .login{
+    display: inline-block;
+
+}
+.form-heading{
+    padding-bottom: 20px;
+}
+.png{
+    width: 30px;
+    height:30px;
+}
+
+    
+h5{
+    text-align: center;
+}
+.about-div,.mission-div,.vision-div,.what-we-offer-div{
+    padding: 20px 5px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 50px 60px 50px;
+
+
+}
+.about-div{
+    color: black;
+    text-align: center;
+    margin:0px;
+    
+    background-color: rgb(90, 0, 0);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.mission-div{
+    background-color:rgb(39, 37, 37);
+
+    color: #fff;
+}
+.vision-div{
+    background-color: white;
+
+}
+.what-we-offer-div{
+    background-image: url(assets/images/Car4.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.mission-vision-info,.first-3{
+    display: flex;
+    
+}
+.first-3{
+    padding:  30px;
+    
+}
+.review,.maintenance,.comparisons{
+    padding: 30px;
+    border-radius: 10px;
+}
+.review{
+    background-color: #fff;
+}
+.maintenance{
+    background-color:rgb(39, 37, 37);
+    margin-left: 20px;
+    color: #fff;
+}
+.comparisons{
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+.footer{
+  
+    padding-top:40px ;
+    padding-bottom: 40px;
+    display: flex;
+   justify-content:space-between;
+
+    gap: 10;
+}
+
+.footer > div {
+
+    flex-basis:30%;
+}
+
+
+
+
+
+.li-style {
+color: rgb(41, 35, 212);
+ list-style: square;
+ display: flex;
+ gap: 15px;
+ flex-direction:column;
+}
+
+.text-color{
+    color:rgb(109, 107, 107)
+}
+.useful-links{
+    display: flex;
+}
+
+.li-style a {
+
+text-decoration: none;
+}
+.li-style-v2 {
+    color: rgb(41, 35, 212);
+     list-style: square;
+     display: flex;
+     gap: 40px;
+     flex-direction: column;
+    }
+
+    .footer h3 {
+
+        margin-bottom: 20px; 
+    }
+.copyright{
+    padding-top:0 ;
+    
+
+text-align: center;
+
+}
+/* Admin login page */
+.admin-body{
+    background-color: lightblue;
+}
+.admin-form{
+    background-color: white;
+    color:black;
+    padding: 30px;
+    margin-top: 100px ;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 8px;
+    
+}
+
+.login-header-div{
+    border: 3px solid black;
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+.username{
+    padding-top: 30px;
+}
+.username,.password,.submit-button{
+    padding-bottom: 30px;
+}
+label{
+    font-size: 20px;
+    font-family: 'Roboto Medium', sans-serif;
+    
+}
+input{
+    width: 90%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+input[type=submit]{
+    font-size: 20px;
+    border-radius: 8px;
+    text-transform: uppercase;    
+}
+input[type=submit]:hover{
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+}
+#toggle{
+    margin-left: -30px;
+}
+.password i{
+    position: absolute;
+    margin-top: 10px;
+    color: grey;
+    font-size: 20px;
+    
+    cursor: pointer; 
+}
+
+/* Admin dashboard */
+body nav{
+    background-color: rgb(221, 212, 212);
+    padding: 20px;
+}
+#logo-word{
+    font-weight: bolder;
+}
+ .logo{
+    color: darkorange;
+    
+}
+
+

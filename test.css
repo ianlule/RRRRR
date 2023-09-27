@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(BUILDINGS.jpg);
+    
+}
+
+.header {
+    
+    
+    font-family: 'Times New Roman', Times, serif;
+    background-color: none;
+    color: #c00808;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.school-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px; /* Adjust the width of the logo as needed */
+    height: auto;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color:none ;
+}
+
+.event {
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f257;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(240, 8, 8, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.event:hover {
+    transform: scale(1.05);
+}
+
+.event img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.event .event-text {
+    padding: 10px;
+    text-align: center;
+    background-color: #0a0a0a;
+    color: #690707;
+}
+h1{
+    font-size: 65;
+    font-family: 'Times New Roman', Times, serif;
+    color: #46110a;
+    text-underline-position: below;
+}
+<style>
+    /* Add your existing CSS styles here */
+
+    /* Hover effect for images with text */
+    .event-container .event {
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .event-container .event:hover {
+        transform: translateY(-5px);
+    }
+
+    .event-container .event img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .event-container .event .event-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #3ae760;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+    }
+
+    .event-container .event:hover .event-text {
+        transform: translateY(0);
+    }

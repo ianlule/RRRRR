@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prefects and Councilors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Your Logo</div>
+        <a href="administrators.html"><span class="icon">👑</span>ADMINISTRATORS</a>
+        <a href="prefectsandcouncilors.html"><span class="icon">🎖️</span>PREFECTS AND COUNCILORS</a>
+        <a href="teachers.html"><span class="icon">👩‍🏫</span>TEACHERS</a>
+        <a href="chaplaincy.html"><span class="icon">⛪</span>CHAPLAINCY</a>
+        <a href="nonteachingstaff.html"><span class="icon">👷‍♂️</span>NON-TEACHING STAFF</a>
+        <a href="formperiod.html"><span class="icon">📅</span>FORM PERIOD</a>
+        <a href="students.html"><span class="icon">🎓</span>STUDENTS</a>
+    </nav>
+    <div class="container" id="prefects">
+        <h1>PREFECTS Suggestion Box</h1>
+        <p>Use this form to submit your suggestions to the prefects/councilors.</p>
+        <form name="prefectsandcouncilors" id="prefectsandcouncilors" method="POST" action="prefectsandcouncilors.php">
+            <label for="suggestion"><h2>Your Suggestion</h2>:</label>
+            <textarea id="suggestion" name="suggestion" rows="4" cols="50"></textarea><br><br>
+            <label for="name"><h2>PREFECTS'/COUNCILOR'S NAME:</h2></label>
+            <input type="text" id="name" name="name"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <a class="button" href="index.html">Back to Home</a>
+</body>
+</html>

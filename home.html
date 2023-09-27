@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Suggestion Box</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">Your Logo</div>
+        <a href="administrators.html"><span class="icon">👑</span>ADMINISTRATORS</a>
+        <a href="prefectsandcouncilors.html"><span class="icon">🎖️</span>PREFECTS AND COUNCILORS</a>
+        <a href="teachers.html"><span class="icon">👩‍🏫</span>TEACHERS</a>
+        <a href="chaplaincy.html"><span class="icon">⛪</span>CHAPLAINCY</a>
+        <a href="nonteachingstaff.html"><span class="icon">👷‍♂️</span>NON-TEACHING STAFF</a>
+        <a href="formperiod.html"><span class="icon">📅</span>FORM PERIOD</a>
+        <a href="students.html"><span class="icon">🎓</span>STUDENTS</a>
+    </nav>
+    <div class="container" style="padding: 70px 0px;">
+        <h1>Please select a category from the above menu.</h1>
+    </div>
+    <form action="submit_suggestion.php" method="POST">
+        <!-- Your form fields (name and suggestion) go here -->
+        <input type="text" name="name" placeholder="Name">
+        <textarea name="suggestion" placeholder="Your Suggestion"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    
+  
+    <!-- Button to go back to the home page -->
+<a class="button" href="index.html">Back to Home</a>
+
+    
+    <!-- <script>
+        function function1 () {
+            let userInput = document.querySelector(name);
+            let suggestion = document.querySelector(suggestion);
+
+        }
+        // JavaScript to toggle visibility of containers when clicking on navigation links
+        const navLinks = document.querySelectorAll('nav a');
+        const containers = document.querySelectorAll('.container');
+
+        navLinks.forEach((link, index) => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                containers.forEach((container) => {
+                    container.style.display = 'none';
+                });
+                containers[index].style.display = 'block';
+            });
+        });
+    </script> -->
+
+
+
+    
+
+   
+    <!-- Add similar container sections for other categories -->
+
+</body>
+</html>

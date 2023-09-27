@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 237, 237);
+    background-image: url(images.jpg);
+}
+
+.header {
+    background-color: #0b3602;
+    color: #f0a10e;
+    text-align: center;
+    padding: 20px;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.event {
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.event img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.event:hover img {
+    transform: scale(1.1);
+}
+
+.event .event-text {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.event:hover .event-text {
+    opacity: 1;
+}

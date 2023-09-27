@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body class="admin-body">
+    <div class="admin-form">
+        <form action="AdminLogin.php" method="POST">
+            <div class="login-header-div">
+                <h2 class="login-header">Admin Login</h2>
+            </div>
+            <div class="username">
+                <label for="">Username:</label><br>
+                <input type="text" name="username" id="username" placeholder="Enter username" required>
+            </div>
+            <div class="password">
+                <label for="">Password:</label><br>
+                <input  type="password" placeholder="Enter password" name="password" id="password"  required  >
+                
+                <i class="fa fa-eye" id="toggle" onclick="toggle();"></i>
+                
+                    </div>
+            <div class="submit-button">
+                <input type="submit" name="submit" value="Login">
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript">
+    function toggle(){
+   var Pinput=document.getElementById("password");
+   var click=document.getElementById("toggle");
+   if(Pinput.type==="password"){
+       Pinput.type="text";
+       click.className="fa fa-eye-slash";
+   }
+   else{
+       Pinput.type="password";
+       click.className="fa fa-eye";
+   }
+}
+    </script>
+     
+</body>
+</html>
